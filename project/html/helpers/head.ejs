@@ -1,0 +1,53 @@
+<meta charset="UTF-8">
+<title>Base Web App</title>
+
+
+<!-- First we import our css files -->
+
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+<!-- Google font CSS -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
+<!-- this app's own css -->
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+
+
+<!-- Next import js files -->
+
+<!-- first we import jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- then bootstrap -->
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  
+  var firebaseConfig = {
+    apiKey: "<%= process.env.FIREBASE_API_KEY %>",
+    authDomain: "fir-demo-5b396.firebaseapp.com",
+    databaseURL: "https://fir-demo-5b396.firebaseio.com",
+    projectId: "fir-demo-5b396",
+    storageBucket: "fir-demo-5b396.appspot.com",
+    messagingSenderId: "186061285942",
+    appId: "1:186061285942:web:230532751b769b43"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<!-- then our app's own js file -->
+<script src="js/main.js"></script>

@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <% include ../helpers/head %>
+</head>
+
+<body>
+  <!-- the classes 'page-header', 'btn btn-dark', and so on create bootstrap components.  -->
+  <!-- Check out more components here: http://getbootstrap.com/components/ -->
+  <div class="page-header">
+
+  
+    <h1>Message Stream</h1>
+  </div>
+
+  <div class="login mx-auto">Log in to post to the database: <button class="btn btn-dark" onClick="handleSignIn()">Log in</button></div>
+
+
+  <form onSubmit="handleMessageFormSubmit()" action="#">
+    <div class="form-group row mx-auto">
+      <label for="post-title" class="col-sm-1 col-form-label">Title</label>
+      <div class="col-sm-11">
+        <input type="text" class="form-control" id="post-title" placeholder="Enter post title">
+      </div>
+    </div>
+    <div class="form-group row mx-auto">
+      <label for="post-title" class="col-sm-1 col-form-label">Body</label>
+      <div class="col-sm-11">
+        <textarea type="text" class="form-control" id="post-body" placeholder="Enter post body"></textarea>
+      </div>
+    </div>  
+    <button class="btn btn-dark btn-lg">Submit</button>
+  </form>
+
+  <hr>
+
+  <h2>Posts</h2>
+  <div id="post-listing"></div>
+  
+</body>
+
+</html>

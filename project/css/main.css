@@ -1,0 +1,57 @@
+
+body {
+  font-family: Arial, serif;
+  text-align: center;
+  color: #343a40;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+p {
+  margin-top: 80px;
+}
+
+.page-header {
+  background-color: #00bda5;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  color: #ffffff;
+}
+
+.login {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #eaf0f6;
+  padding: 20px;
+  width: 40%;
+  min-width: 500px;
+}
+
+.form-group {
+  width: 40%;
+  min-width: 500px;
+}
+
+hr {
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-width: 500px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #00a38d;
+}
+
+.post {
+  margin-top: 10px;
+}
