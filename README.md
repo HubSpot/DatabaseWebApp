@@ -50,7 +50,7 @@ While still on the Firebase website, go back to “Project Overview” in the le
 
 Add a name for your app to register it, then you should see a code block pop up on your screen. Copy that code, then head to your `head.ejs` file. Paste the code into your `head.ejs` file before the link to your app’s `main.js` file.
 
-#### 5.Hide your API Key
+#### 5. Hide your API Key
 
 Next, hook up your API key. Leaving API keys in your code is not a good idea — bots continuously scrape Github looking for API keys to abuse. Let’s walk through how to hide your API key from the code that lives on Github, but still make it accessible to your app. Run the following command in your terminal, substituting `whatever-your-API-key-is` for the string of characters that come after the apiKey variable in that block of code you just copied over. Don’t include the quotation marks:
 
@@ -77,7 +77,7 @@ Scroll to "Step 3: Add Firebase SDKs and initialize Firebase". Click the “From
 
 _Note: If you ever need some help figuring out what your code should look like, just check out the code in this repo for reference._
 
-#### 7. Setting up the authentication
+#### 7. Set up the authentication
 
 The pop-up you copied your initial code from has a convenient link to the Firebase documentation. Click the “Getting Started” link, and find the “Authentication” section. You’re doing this on the web, so select that option. Since you’re using Google Sign-In, select that option, too.
 
